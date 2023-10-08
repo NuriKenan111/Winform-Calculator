@@ -73,11 +73,12 @@
             // 
             // calAssign
             // 
-            calAssign.BackColor = Color.DarkViolet;
+            calAssign.BackColor = Color.Blue;
             calAssign.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            calAssign.ForeColor = Color.White;
             calAssign.Location = new Point(243, 223);
             calAssign.Name = "calAssign";
-            calAssign.Size = new Size(58, 48);
+            calAssign.Size = new Size(57, 49);
             calAssign.TabIndex = 3;
             calAssign.Text = "=";
             calAssign.UseVisualStyleBackColor = false;
@@ -85,8 +86,9 @@
             // 
             // calPlus
             // 
-            calPlus.BackColor = Color.Violet;
+            calPlus.BackColor = Color.Blue;
             calPlus.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            calPlus.ForeColor = Color.White;
             calPlus.Location = new Point(243, 170);
             calPlus.Name = "calPlus";
             calPlus.Size = new Size(58, 48);
@@ -97,8 +99,9 @@
             // 
             // carNegative
             // 
-            carNegative.BackColor = Color.Violet;
+            carNegative.BackColor = Color.Blue;
             carNegative.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            carNegative.ForeColor = Color.White;
             carNegative.Location = new Point(243, 117);
             carNegative.Name = "carNegative";
             carNegative.Size = new Size(58, 48);
@@ -109,8 +112,9 @@
             // 
             // calMultiple
             // 
-            calMultiple.BackColor = Color.Violet;
+            calMultiple.BackColor = Color.Blue;
             calMultiple.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            calMultiple.ForeColor = Color.White;
             calMultiple.Location = new Point(243, 63);
             calMultiple.Name = "calMultiple";
             calMultiple.Size = new Size(58, 48);
@@ -122,8 +126,9 @@
             // calDivision
             // 
             calDivision.AutoEllipsis = true;
-            calDivision.BackColor = Color.Violet;
+            calDivision.BackColor = Color.Blue;
             calDivision.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            calDivision.ForeColor = Color.White;
             calDivision.Location = new Point(243, 9);
             calDivision.Name = "calDivision";
             calDivision.Size = new Size(58, 48);
@@ -224,6 +229,7 @@
             // 
             // calFaiz
             // 
+            calFaiz.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point);
             calFaiz.Location = new Point(162, 9);
             calFaiz.Name = "calFaiz";
             calFaiz.Size = new Size(75, 48);
@@ -234,6 +240,7 @@
             // 
             // calDelete
             // 
+            calDelete.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point);
             calDelete.Location = new Point(81, 9);
             calDelete.Name = "calDelete";
             calDelete.Size = new Size(75, 48);
@@ -285,10 +292,10 @@
             textBox1.BackColor = Color.Black;
             textBox1.Font = new Font("Times New Roman", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
             textBox1.ForeColor = Color.White;
-            textBox1.Location = new Point(0, -1);
-            textBox1.MinimumSize = new Size(303, 205);
+            textBox1.Location = new Point(1, -1);
+            textBox1.MinimumSize = new Size(304, 225);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(303, 205);
+            textBox1.Size = new Size(304, 225);
             textBox1.TabIndex = 23;
             textBox1.Text = "0";
             // 
@@ -296,6 +303,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(305, 495);
             Controls.Add(textBox1);
             Controls.Add(panel1);
